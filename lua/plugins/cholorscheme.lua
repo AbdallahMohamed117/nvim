@@ -14,9 +14,16 @@ return {
     {
         'datsfilipe/vesper.nvim',
         lazy = false,
-        priority = 1000,
+--        priority = 1000,
         config = function()
-            vim.cmd.colorscheme('vesper')
+--            vim.cmd.colorscheme('vesper')
+        end
+    },
+    {
+        "ellisonleao/gruvbox.nvim", 
+        priority = 1000 , 
+        config = function()
+            vim.cmd.colorscheme('gruvbox')
         end
     },
 }
