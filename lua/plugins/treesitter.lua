@@ -55,7 +55,6 @@ return {
           'make',
           'markdown',
           'markdown_inline',
-          'norg',
           'python',
           'query',
           'regex',
@@ -69,6 +68,7 @@ return {
           'vimdoc',
           'vue',
           'xml',
+          'sql',
         }, {
           max_jobs = 8,
         })

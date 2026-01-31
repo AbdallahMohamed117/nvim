@@ -31,3 +31,7 @@ require("lazy").setup({
     -- automatically check for plugin updates
     checker = { enabled = true },
 })
+
+--LSPs
+vim.lsp.enable("lua_ls")
+vim.lsp.enable('sqlls')
