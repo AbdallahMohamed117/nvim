@@ -21,8 +21,8 @@ return {
     },
     {
         "ellisonleao/gruvbox.nvim", 
-        priority = 1000 , 
-        config = function()
+   --     priority = 1000 , 
+          config = function()
             require("gruvbox").setup({
                 bold = true,
                 italic = {
@@ -32,9 +32,21 @@ return {
                     operators = false,
                     folds = true,
                 },
-                transparent_mode = true,
             })
-            vim.cmd.colorscheme("gruvbox")
+    --        vim.cmd.colorscheme("gruvbox")
         end,
+    },
+    {
+        "ilof2/posterpole.nvim",
+        priority=1000,
+        config = function ()
+            local posterpole = require("posterpole")
+
+            posterpole.setup({
+                -- config here
+            })
+            vim.cmd("colorscheme posterpole")
+
+        end
     },
 }

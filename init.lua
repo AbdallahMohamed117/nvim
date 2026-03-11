@@ -35,3 +35,5 @@ require("lazy").setup({
 --LSPs
 vim.lsp.enable("lua_ls")
 vim.lsp.enable('sqlls')
+vim.lsp.enable("python-lsp-server")
+vim.lsp.enable("clang")
