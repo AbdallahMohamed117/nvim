@@ -36,4 +36,5 @@ require("lazy").setup({
 vim.lsp.enable("lua_ls")
 vim.lsp.enable('sqlls')
 vim.lsp.enable("python-lsp-server")
+vim.lsp.enable("typescript-language-server")
 vim.lsp.enable("clang")
