@@ -44,5 +44,6 @@ return {
     vim.lsp.enable("pylsp")
     vim.lsp.enable("ts_ls")
     vim.lsp.enable("clangd")
+    vim.lsp.enable("djlsp")
   end,
 }
